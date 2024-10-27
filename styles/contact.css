@@ -1,0 +1,37 @@
+.contactHeroWper {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    height: fit-content;
+    padding: 80px 80px;
+}
+
+.contactHeroWper>div {
+    width: 100%;
+}
+
+.contactbgWrper {
+    background: #1d1d1b;
+    padding: 35px;
+    color: #fff;
+}
+
+.formWrper {
+    margin-top: 20px;
+}
+
+
+.formWrper>div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+}
+
+@media (max-width:1024px) {
+    .contactHeroWper {
+        flex-direction: column;
+        gap: 30;
+        padding: 50px 0;
+    }
+}

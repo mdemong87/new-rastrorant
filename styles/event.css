@@ -1,0 +1,65 @@
+.careere-section-wrper {
+    padding: 80px 80px;
+}
+
+.formWrper {
+    margin-top: 100px;
+    background: #1d1d1b;
+    padding: 35px;
+}
+
+
+.formWrper>div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+    .careere-section-wrper {
+        padding: 80px 80px;
+    }
+
+    .formWrper {
+        margin-top: 100px;
+        background: #1d1d1b;
+        padding: 35px;
+    }
+
+
+    .formWrper>div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+
+    }
+
+    .carreerHeader {
+        font-size: 70px;
+    }
+
+    @media (max-width:1024px) {
+        .careere-section-wrper {
+
+            padding: 50px 0;
+        }
+
+        .formWrper {
+            padding: 20px;
+        }
+    }
+
+}
+
+.carreerHeader {
+    font-size: 70px;
+}
+
+@media (max-width:1024px) {
+    .careere-section-wrper {
+
+        padding: 50px 0;
+    }
+
+    .formWrper {
+        padding: 20px;
+    }
+}

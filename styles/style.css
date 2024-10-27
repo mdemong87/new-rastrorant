@@ -1,0 +1,480 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #ad986e;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.73)), url('../assest/welcomerestrorant.png');
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+video {
+    z-index: 11;
+}
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.pBg {
+    background-color: var(--primaryColor);
+}
+
+.pCl {
+    color: var(--primaryColor);
+}
+
+.sFont {
+    font-family: "Caveat", cursive;
+}
+
+.primaryHeader {
+    font-size: 70px;
+}
+
+.secHeader {
+    font-size: 43px;
+}
+
+.pBorder {
+    border: 1px solid var(--primaryColor);
+}
+
+.pShadow {
+    box-shadow: 4px 4px 3px var(--primaryColor);
+}
+
+input {
+    background: #fff;
+}
+
+textarea {
+    background: #fff;
+}
+
+select {
+    background: #fff;
+}
+
+.container {
+    width: 90% !important;
+    margin: auto;
+}
+
+
+.topheader {
+    border-bottom: 1px dashed var(--primaryColor);
+}
+
+.btn {
+    background: var(--primaryColor);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0px;
+    transition: color 1s border 1s background 1s;
+}
+
+
+
+.btn:hover {
+    border: 1px dashed var(--primaryColor);
+    color: var(--primaryColor);
+}
+
+
+.headerBtnAnimation {
+    animation: headerbtnAnimatins 1.5s ease-in-out infinite;
+}
+
+@keyframes headerbtnAnimatins {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(2deg) scale(0.9);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+
+/* navbar css code here */
+.navberandlogoWrper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    z-index: 20;
+}
+
+
+.navbarsssection {
+    height: fit-content !important;
+    z-index: 99;
+    border: 1px solid transparent;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.navbarMenuIconWrper {
+    display: none;
+}
+
+.navbars {
+    width: 100% !important;
+}
+
+.navbarsUL {
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mnuHOver {
+    transition: color .3s;
+}
+
+.mnuHOver:hover {
+    color: var(--primaryColor) !important;
+}
+
+.transparentDiv {
+    display: none;
+}
+
+
+
+/* hero section css code here */
+.heroSection {
+    z-index: 10;
+}
+
+.heroVedioWrper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+}
+
+.vedioforHero {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.heroTextWrper {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.395);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heroTextWrper>h2 {
+    font-size: 80px !important;
+    font-weight: 600;
+}
+
+.award-winning-Wrper>h2 {
+    width: 50% !important;
+    text-align: center;
+}
+
+.award-winning-Wrper>p {
+    width: 60% !important;
+    text-align: center;
+
+}
+
+.herobtnsWrp {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+
+
+
+/* food card section css code here */
+.food-card-section {
+    padding: 80px 0;
+}
+
+.food-card-Wrper {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.food-card-Wrper>div {
+    width: 100%;
+    height: 500px;
+    transition: .8s;
+}
+
+.food-card-Wrper>div:hover {
+    transform: rotate(-3deg) scale(.9);
+}
+
+.food-card-Wrper>div:first-child {
+    margin-top: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/menu-01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.food-card-Wrper>div:last-child {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/menu-02.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.introducingroofloofvedioSection {
+    position: relative;
+    height: 600px;
+}
+
+.houseofsmoke {
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+
+
+
+
+/* bottom to top scroll btnb */
+.bottomToTopBTNWrp {
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    top: 92vh;
+    left: 93vw;
+}
+
+.bottomToTopBTNWrp>button {
+    background: var(--primaryColor);
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+/* footer css code  */
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.88)), url('../assest/footer-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100%;
+    color: #fff;
+}
+
+.footerborderright {
+    border-right: 2px solid var(--primaryColor);
+    padding: 0 10px;
+}
+
+
+
+
+
+
+/* all responsive breckdown here */
+
+
+@media (max-width:600px) {
+
+    .headerLogo {
+        width: 60px;
+    }
+
+    .topheaderBookatableText {
+        font-size: 18px;
+    }
+
+
+    .navbarsUL {
+        width: 300px;
+    }
+
+
+
+}
+
+
+@media (max-width:768px) {
+
+    .headerLogo {
+        width: 80px;
+    }
+
+    .navbarsUL {
+        width: 320px;
+    }
+
+
+
+
+    /* bottom to top scroll btnb */
+    .bottomToTopBTNWrp {
+        position: fixed;
+        top: 92vh;
+        left: 85vw;
+    }
+}
+
+@media (max-width:1024px) {
+    .container {
+        width: 95% !important;
+    }
+
+    .middleHeaderSection {
+        display: none;
+    }
+
+    .navbarMenuIconWrper {
+        display: block;
+    }
+
+    .navbars {
+        display: none;
+        background: rgba(0, 0, 0, 0.426);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: 99;
+        width: 100% !important;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .navbarsUL {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 350px;
+        background: black;
+        height: 100vh;
+        padding: 120px 0;
+    }
+
+    .welcomeImg {
+        width: 100% !important;
+        height: 100px;
+    }
+
+    .welcomeTextWrper {
+        text-align: center;
+        margin-top: 40px;
+        align-items: center !important;
+    }
+
+
+    .transparentDiv {
+        display: flex;
+        cursor: pointer;
+        justify-content: end;
+        width: auto;
+        height: fit-content;
+        background: var(--primaryColor);
+        padding: 10px;
+        border-bottom-right-radius: 15px;
+    }
+
+
+    .award-winning-Wrper>h2 {
+        width: 100% !important;
+        text-align: center;
+        font-size: 60px !important;
+    }
+
+    .award-winning-Wrper>p {
+        width: 90% !important;
+        text-align: center;
+
+    }
+
+    .food-card-Wrper {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .food-card-Wrper>div:first-child {
+        margin-top: 0px;
+    }
+
+    .footerAllDivWrper {
+        text-align: center;
+    }
+
+    .connectWithDivWrper {
+        text-align: center !important;
+    }
+
+    .footerSocialIconWrper {
+        justify-content: center !important;
+        margin-top: 30px;
+    }
+
+    .footerSocialIconWrper>a>i {
+        font-size: 30px;
+    }
+
+    .footerlogoWrper {
+        margin: 20px 0;
+    }
+
+}

@@ -1,0 +1,111 @@
+.menu-card-Wrper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 70px 0;
+}
+
+
+
+
+
+.menu-card-Wrper>div {
+    width: 100%;
+    height: 380px;
+    transition: .8s;
+}
+
+.menu-card-Wrper>div:hover {
+    transform: rotate(-3deg) scale(.9);
+}
+
+
+
+.menu-card-Wrper>div:first-child {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-Wrper>div:nth-child(2) {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-Wrper>div:nth-child(3) {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-Wrper>div:nth-child(4) {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-Wrper>div:nth-child(5) {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-Wrper>div:nth-child(6) {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-Wrper>div:nth-child(8) {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-Wrper>div:nth-child(7) {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-Wrper>div:last-child {
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/desertitem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+@media (max-width:1024px) {
+    .menu-card-Wrper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .menu-card-Wrper>div {
+        height: 250px;
+    }
+}
+
+@media (max-width:768px) {
+    .menu-card-Wrper {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-card-Wrper>div {
+        height: 250px;
+    }
+}
