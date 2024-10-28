@@ -23,7 +23,7 @@
 
 
 .menu-card-Wrper>div:first-child {
-    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,7 +58,7 @@
 }
 
 .menu-card-Wrper>div:nth-child(6) {
-    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/gallery2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../assest/about3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
