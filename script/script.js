@@ -54,3 +54,47 @@ bottomToTopBTNWrp.addEventListener("click", () => {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 })
+
+
+
+
+// swiper js javaScript code
+const swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    // Optional parameters
+    loop: true,
+    autoplay: {
+        delay: 2000,
+    },
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+
+    // Responsive breakpoints
+    breakpoints: {
+
+        // when window width is >= 640px
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 15
+        },
+        // when window width is >= 640px
+        990: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        }
+
+    }
+
+
+});
