@@ -478,17 +478,11 @@ select {
 
     .welcomeImg {
         width: 100% !important;
-        height: 100px;
+        height: 100% !important;
 
     }
 
 
-
-    .welcomeTextWrper {
-        text-align: center;
-        margin-top: 40px;
-        align-items: center !important;
-    }
 
 
     .transparentDiv {
