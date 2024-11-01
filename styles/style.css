@@ -6,6 +6,8 @@
 
 :root {
     --primaryColor: #ad986e;
+
+
 }
 
 body {
@@ -208,21 +210,13 @@ select {
 .downloadMedu-Wrper {
     height: fit-content;
     color: var(--primaryColor);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
-.downloadMedu-Wrper>button {
-    cursor: pointer;
-    background: var(--primaryColor);
-    color: #fff;
-    font-weight: 500;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 10px;
-}
+
 
 
 /* hero section css code here */
