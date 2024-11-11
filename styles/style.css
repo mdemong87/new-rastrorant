@@ -12,9 +12,9 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.73)), url('../assest/welcomerestrorant.png');
-    background-attachment: fixed;
-    background-position: center;
+    background: #2f4239;
+
+
 
 }
 
@@ -93,9 +93,7 @@ select {
     transition: color 1s border 1s background 1s;
 }
 
-.welcomeImg {
-    border-radius: 35px;
-}
+
 
 .btn:hover {
     border: 1px dashed var(--primaryColor);
@@ -124,6 +122,11 @@ select {
 
 
 /* slider section css start from header */
+.slider_section {
+    background: #edefee;
+    padding: 60px 20px;
+}
+
 .swiper {
     width: 100%;
     height: 100%;
@@ -144,7 +147,7 @@ select {
 }
 
 .slider-wrper {
-    transform: translateY(120px);
+    transform: translateY(0px);
     height: 350px;
     border-radius: 20px;
 }
@@ -274,12 +277,92 @@ select {
     margin-top: 50px;
 }
 
+.styory_section {
+    background: #2f4239;
+}
 
+.welcome-bootom-padding {
+    padding-bottom: 90px !important;
+    position: relative;
+}
+
+.background-color {
+    background: #171717;
+    width: 70%;
+    z-index: -1;
+    position: absolute;
+    height: 100%
+}
+
+
+.background-color-two {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.background-color-two>div:last-child {
+    background: #edefee;
+    width: 70%;
+    height: 100%;
+
+}
+
+.dropDownMy {
+    position: relative;
+}
+
+.dropDownWrpermano {
+    position: absolute;
+    top: 0;
+    display: none;
+    height: fit-content;
+
+    margin-top: 10px;
+    z-index: 100 !important;
+}
+
+
+.trans {
+    height: 60px;
+    width: 100%;
+    color: transparent;
+    background: transparent;
+}
+
+.dropDownWrpermano:hover {
+    display: block;
+}
+
+.dropDownMy:hover~.dropDownWrpermano {
+    display: block;
+}
+
+.dropDownWrpermano>li {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: var(--primaryColor);
+    color: #fff;
+    transform: translateX(-30px);
+}
+
+.dropDownWrpermano>li>a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 0;
+}
 
 
 /* food card section css code here */
 .food-card-section {
     padding: 80px 0;
+    background: #2f4239;
 }
 
 .food-card-Wrper {
@@ -361,15 +444,12 @@ select {
 
 /* footer css code  */
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.88)), url('../assest/footer-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: fit-content;
     padding-top: 50px;
     padding-bottom: 30px;
     width: 100%;
     color: #fff;
+    background: #171717;
 }
 
 .footerborderright {
