@@ -121,6 +121,39 @@ select {
 
 
 
+
+.footerAllDivWrper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerAllDivWrper>div {
+    width: 100%;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer_food {
+    position: absolute;
+    top: 20px;
+    right: -10px;
+
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
 /* slider section css start from header */
 .slider_section {
     background: #edefee;
@@ -331,7 +364,12 @@ select {
 
 
 .connectWithDivWrper>div>a {
-    text-align: right !important;
+    text-align: center !important;
+}
+
+.dropDownWrpermano>li>a:hover {
+    transition: .5s;
+    color: black !important;
 }
 
 .trans {
@@ -533,6 +571,16 @@ select {
         left: 85vw;
     }
 
+
+
+
+    .footer_food {
+        position: absolute;
+        top: 20px;
+        right: 100px;
+
+        display: none;
+    }
 
 
 }
