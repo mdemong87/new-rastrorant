@@ -2,7 +2,7 @@ const navberHeader = document.getElementById('navberHeader');
 
 window.addEventListener('scroll', (e) => {
 
-    if (window.scrollY > 200) {
+    if (window.scrollY > 60) {
         navberHeader.style.position = "fixed";
         navberHeader.style.width = "100vw";
         navberHeader.style.top = "0";

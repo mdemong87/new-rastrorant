@@ -362,6 +362,13 @@ select {
 
 }
 
+.connectWithDivWrper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
 
 .connectWithDivWrper>div>a {
     text-align: center !important;
@@ -377,6 +384,13 @@ select {
     width: 100%;
     color: transparent;
     background: transparent;
+}
+
+.footer-footers {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .dropDownWrpermano:hover {
@@ -607,6 +621,14 @@ select {
         height: 100vh;
         z-index: 99;
         width: 100% !important;
+
+    }
+
+    .footer-footers {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     ul {
@@ -619,7 +641,8 @@ select {
         width: 350px;
         background: black;
         height: 100vh;
-        padding: 120px 0;
+        padding: 30px 0;
+
     }
 
     .welcomeImg {
@@ -670,6 +693,8 @@ select {
 
     .connectWithDivWrper {
         text-align: center !important;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .connectWithDivWrper>div>a {
