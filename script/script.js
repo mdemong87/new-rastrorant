@@ -11,7 +11,7 @@ window.addEventListener('scroll', (e) => {
         navberHeader.style.position = "fixed";
         navberHeader.style.width = "100vw";
         navberHeader.style.top = "0";
-        navberHeader.style.background = "transparent";
+        navberHeader.style.background = "black";
     }
 
 });
