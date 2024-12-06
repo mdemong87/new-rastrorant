@@ -368,6 +368,9 @@ select {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+
+    border-top: 1px solid #656565;
+
 }
 
 
@@ -639,6 +642,8 @@ select {
     .navbarsUL {
         flex-direction: column;
         justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 35px !important;
         width: 350px;
         background: black;
         height: 100vh;
@@ -698,13 +703,42 @@ select {
         gap: 20px;
     }
 
+
+    .connectWithDivWrper>div {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .llll {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .llll>a {
+        width: fit-content;
+    }
+
+    .llks {
+        justify-content: center !important;
+        padding-left: 0 !important;
+    }
+
     .connectWithDivWrper>div>a {
         text-align: center !important;
     }
 
+    .noneborder {
+        border: none !important;
+    }
+
     .footerSocialIconWrper {
         justify-content: center !important;
-        margin-top: 30px;
+        margin-top: 0px !important;
+
     }
 
     .footerSocialIconWrper>a>i {
