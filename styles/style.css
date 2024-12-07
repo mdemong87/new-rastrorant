@@ -355,11 +355,13 @@ select {
 
 .dropDownWrpermano {
     position: absolute;
-    top: 1;
+    top: 10 !important;
     display: none;
     height: fit-content;
     z-index: 100 !important;
     margin-top: -2px !important;
+
+
 
 }
 
@@ -368,23 +370,42 @@ select {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-
+    height: 70px !important;
     border-top: 1px solid #656565;
+    border-bottom: 1px solid #f1b01d;
+
+
 
 }
+
+.lastpadding {
+    padding-left: 100px;
+}
+
+.connectWithDivWrper>div {
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 
 .connectWithDivWrper>div>a {
     text-align: center !important;
 }
 
+
 .dropDownWrpermano>li>a:hover {
     transition: .5s;
     color: black !important;
+    background: #766e58 !important;
+
 }
 
 .trans {
-    height: .01px !important;
+    height: 7px !important;
     width: 100%;
     color: transparent;
     background: transparent;
@@ -418,17 +439,17 @@ select {
 .dropDownWrpermano>li {
     display: flex;
     flex-direction: column;
-    padding: 15px;
     background: var(--primaryColor);
     color: #fff;
     transform: translateX(-30px);
+
 }
 
 .dropDownWrpermano>li>a {
     color: #fff;
     font-size: 18px;
     font-weight: 600;
-    padding: 7px 0;
+    padding: 7px 15px;
 }
 
 
@@ -658,7 +679,9 @@ select {
     }
 
 
-
+    .lastpadding {
+        padding-left: 0px;
+    }
 
     .transparentDiv {
         display: flex;
@@ -701,7 +724,12 @@ select {
         text-align: center !important;
         flex-direction: column;
         gap: 20px;
+        height: fit-content !important;
+
+
     }
+
+
 
 
     .connectWithDivWrper>div {
@@ -737,7 +765,6 @@ select {
 
     .footerSocialIconWrper {
         justify-content: center !important;
-        margin-top: 0px !important;
 
     }
 
